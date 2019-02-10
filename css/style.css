@@ -346,7 +346,8 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/santa-cruz.jpg");
+    /*background            : url("../img/santa-cruz.jpg");*/
+    background            : #888888 !important;
     background-size       : cover;
     padding               : 0;
     margin                : 0;
