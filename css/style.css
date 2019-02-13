@@ -163,9 +163,9 @@ ul {
 
 /*btn-default*/
 .btn-default {
-    color            : #ffffff;
+    color            : #888888;
     background-color : transparent;
-    border-color     : #ffffff;
+    border-color     : #888888;
     }
 
 .btn-default:hover,
@@ -273,7 +273,7 @@ button:focus,
     }
 
 .main-menu .nav li a {
-    color       : #ffffff;
+    color       : #555555;
     font-weight : 500;
     padding     : 15px 0 15px 30px;
     }
@@ -346,8 +346,8 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    /*background            : url("../img/santa-cruz.jpg");*/
-    background            : #888888 !important;
+    background            : url("../img/uc_berkeley.jpeg");
+    /*background            : #888888 !important;*/
     background-size       : cover;
     padding               : 0;
     margin                : 0;
@@ -362,7 +362,7 @@ button:focus,
     }
 
 .jumbotron .content {
-    color             : #000000;
+    color             : #555555;
     position          : absolute;
     top               : 50%;
     left              : 0;
@@ -377,7 +377,7 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #ffffff;
+    color       : #888888;
     font-weight : bold;
     }
 
