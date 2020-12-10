@@ -94,7 +94,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #8c1515;
+    color              : #fd367e;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -149,16 +149,16 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #8c1515;
-    border-color     : #8c1515;
+    background-color : #fd367e;
+    border-color     : #fd367e;
     }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:focus {
     background   : transparent;
-    color        : #8c1515;
-    border-color : #8c1515;
+    color        : #fd367e;
+    border-color : #fd367e;
     }
 
 /*btn-default*/
@@ -172,8 +172,8 @@ ul {
 .btn-default:focus,
 .btn-default:active:focus {
     background-color : transparent;
-    color            : #8c1515;
-    border-color     : #8c1515;
+    color            : #fd367e;
+    border-color     : #fd367e;
     }
 
 button:focus,
@@ -280,7 +280,7 @@ button:focus,
 
 .main-menu .nav li a:hover,
 .main-menu .nav li.active a {
-    color      : #8c1515;
+    color      : #fd367e;
     background : transparent;
     }
 
@@ -346,7 +346,7 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/stanford-university.jpg");
+    background            : url("../img/uc_berkeley.jpeg");
     /*background            : #888888 !important;*/
     background-size       : cover;
     padding               : 0;
@@ -362,7 +362,7 @@ button:focus,
     }
 
 .jumbotron .content {
-    color             : #333333;
+    color             : #555555;
     position          : absolute;
     top               : 50%;
     left              : 0;
@@ -377,7 +377,7 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #8c1515;
+    color       : #888888;
     font-weight : bold;
     }
 
