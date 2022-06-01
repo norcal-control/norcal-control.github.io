@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+     <title>3rd NorCal Control Workshop</title>
+
+    <!-- web-fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <!-- Navigation -->
+        <nav class="navbar main-menu" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top"><b>3rd NorCal Control Workshop - January 22, 2021</b></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <li><a class="page-scroll" href="#section-about">About</a></li>
+                        <li><a class="page-scroll" href="#section-registration">Registration</a></li>
+                        <!-- <li><a class="page-scroll" href="#section-speaker">Speaker</a></li> -->
+                        <li><a class="page-scroll" href="#section-talks">Talks</a></li>
+                        <!-- <li><a class="page-scroll" href="#section-pricing">Buy Ticket</a></li> -->
+                        <li><a class="page-scroll" href="#section-contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- .nav -->
+
+    </header>
+
+    <div class="jumbotron text-center">
+        <div class="content">
+            <div class="event-date"><b>January 22, 2021, 10 am - noon PST, virtual (via Stanford University).</b></div>
+            <h1>3rd NorCal Control Workshop</h1>
+        </div>
+    </div>
+    <!-- .Jumbotron-->
+
+
+    <section id="section-about" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="section-title">
+                    <h1>About</h1>
+                    </div>
+
+                    <p class="lead">
+                      <b>Theme:</b> Current challenges and future directions in automation, systems, and controls.
+                    </p>
+                    
+                    <p class="lead">
+                    	<b>Goals:</b> Our overarching goal is to spark discussions around the following questions: What are the key challenges in the development of control and automation solutions to the complex problems of today? What are unique future opportunities and problems where control and automation would play a key role? How do we increase diversity, equity, and inclusion in our branches of engineering?<br/>
+                    	<p class="lead">
+                        The 3rd NorCal Control Workshop provides a forum to bring together university students, postdocs, and faculty, along with industry representatives, working in the broad area of systems and control.
+                        The workshop aims to share knowledge and build new connections in the Northern California region.<br/> <!-- in and intersections with, but not limited to:</br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Devices,</br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hardware architecture,</br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Machine Learning,</br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Networking,</br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optimization,</br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Robotics.-->
+                    </p>
+                    </p>
+                    
+                    <p class="lead">
+                        <b>Format:</b> The event is virtual. We will have pre-recorded 5-min student videos and slides, and will use <a target="_blank" href="https://gather.town/">gather.town</a> for interaction and networking.<br/>
+                    </p>
+                    
+                    <p class="lead">
+                    	<b>Prior Workshops:</b> <a target="_blank" href="2018/index.html">[2018]</a> <a target="_blank" href="2019/index.html">[2019]</a>
+                    </p>
+
+                    <p class="lead">
+                    	<b>Sponsors:</b> We thank <a target="_blank" href="https://citris-uc.org/research/people-and-robots/">CITRIS People and Robots (CPAR)</a> for generously sponsoring this workshop's networking session.
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <address>
+                        <strong>Faculty Organizers</strong><br>
+                        <a target="_blank" href="https://navlab.stanford.edu/people"><b>Grace Gao [Stanford]</b></a>
+                        <br>
+                        <a target="_blank" href="https://profiles.stanford.edu/monroe-kennedy"><b>Monroe Kennedy III [Stanford]</b></a><br>
+                        <p>
+                        <br>
+                        <strong>Webmaster</strong><br>
+                        <a target="_blank" href="https://www.shreyaskousik.com/"><b>Shreyas Kousik [Stanford]</b></a><br>
+                        </p>
+                        <p>
+                        <br>
+                        <strong>Student Moderators</strong><br>
+                        <b>Akshay Shetty</b><br>
+                        <b>Ramya Bhamidipati</b><br>
+                        <b>Shubh Gupta</b><br>
+                        <b>Adyasha Mohanty</b><br>
+                        <b>Shivani Guptasarma</b><br>
+                        <b>Wonkyung Do</b><br>
+                        </p>
+                    </address>
+                </div>
+
+                <div class="section-title">
+                  <a><img width="300px" src="img/citris.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-registration" class="section-wrapper  gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Registration</h1>
+                    </div>
+                    
+                    <p>
+                      The event is over! But, all the talks are hosted on YouTube, with links posted below.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    
+    <section id="section-talks" class="section-wrapper section-talks">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Talks</h1>
+                        <br>
+                        <p class="lead">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-1wig">Presenter</th>
+    <th class="tg-1wig">Affiliation</th>
+    <th class="tg-1wig">Title</th>
+    <th class="tg-1wig">Links</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-a3jo">Joseph Lorenzetti</td>
+    <td class="tg-alz1">Stanford University</td>
+    <td class="tg-xquf">Control of Infinite Dimensional Systems </td>
+    <td><a href="https://youtu.be/Je6zUIc-9ic">[Video]</a> <a href="https://stanford.box.com/s/yz1at862x4v7krkiy046pl94n74e8p00">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Robin Brown </td>
+    <td class="tg-0lax">Stanford University</td>
+    <td class="tg-7zrl">Locality in Optimization for Multi-Agent Systems</td>
+    <td><a href="https://youtu.be/6GNQYjDRde8">[Video]</a> <a href="https://stanford.box.com/s/gz4qi32x3nkdqlvo957boq1xn44l2grm">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Karen Leung </td>
+    <td class="tg-alz1">Stanford University</td>
+    <td class="tg-alz1">On Infusing Logical Reasoning into Robot Learning</td>
+    <td><a href="https://youtu.be/4HS2PUESnuc">[Video]</a> <a href="https://stanford.box.com/s/t9lt27bosztu7llul6aj9475bn4zwnw3">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Erdem Bıyık</td>
+    <td class="tg-0lax">Stanford University</td>
+    <td class="tg-0lax">Learning how to Dynamically Route Autonomous Vehicles on Shared Roads</td>
+    <td><a href="https://youtu.be/aY2k9iYyrec">[Video]</a> <a href="https://stanford.box.com/s/fqxgy9midcg4a1its5b9e77usbzt4zvz">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Minae Kwon</td>
+    <td class="tg-alz1">Stanford University</td>
+    <td class="tg-xquf">Influencing Leading and Following in Human-Robot Team</td>
+    <td><a href="https://www.youtube.com/watch?v=qMNctWokRhI">[Video]</a> <a href="https://stanford.box.com/s/fm38ldt727cdxi4st0hd8w8ec0lcm5s1">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Andy Shih</td>
+    <td class="tg-0lax">Stanford University</td>
+    <td class="tg-7zrl">Conventions in Human-AI Collaboration</td>
+    <td><a href="https://www.youtube.com/watch?v=lfJYqOQG6l0">[Video]</a> <a href="https://stanford.box.com/s/21vz3sms7kdymzka0qyn2cvzvbcxmo61">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-5ddu">Tenavi Nakamura-Zimmerer</td>
+    <td class="tg-alz1">UC Santa Cruz</td>
+    <td class="tg-alz1">Supervised Learning for Optimal Feedback Controller Design</td>
+    <td><a href="https://youtu.be/zlID02lgS6E">[Video]</a> <a href="https://stanford.box.com/s/544qz6zc1hmws5eab6wk63ppcrxm7osp">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Zhuo Xu</td>
+    <td class="tg-0lax">UC Berkeley</td>
+    <td class="tg-7zrl">COCOI: Contact-aware Online Context Inference for Generalizable Non-Planar Pushing</td>
+    <td><a href="https://youtu.be/9A7Hlob7dHQ">[Video]</a> <a href="https://stanford.box.com/s/g8hqkwcr392jrndpegck7gd27j9pl5t8">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Catherine Weaver and Ce Hao</td>
+    <td class="tg-xquf">UC Berkeley</td>
+    <td class="tg-xquf">Trajectory Planning and Model-Predictive Control of Autonomous Racing Vehicles</td>
+    <td><a href="https://youtu.be/mnIKtGu7R6Y">[Video]</a> <a href="https://stanford.box.com/s/73siqdmoj1xxemnway8zpfy3idk80mnc">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Xinghao Zhu</td>
+    <td class="tg-7zrl">UC Berkeley</td>
+    <td class="tg-7zrl">Controlling Multi-Fingered Gripper to Grasp using Point Cloud</td>
+    <td><a href="https://www.youtube.com/watch?v=Dh3xcqMV1RM&feature=youtu.be">[Video]</a> <a href="https://stanford.box.com/s/7hgrh1oxh0s7s5me8645bd3t8kpiezc2">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-5ddu">Nathan Lambert</td>
+    <td class="tg-alz1">UC Berkeley</td>
+    <td class="tg-alz1">Some Loose Ends and Trends in Model-based Reinforcement Learning</td>
+    <td><a href="https://www.youtube.com/watch?v=7Z3Yf-jXAUs">[Video]</a> <a href="https://stanford.box.com/v/nol-mbrl-slides">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Eugene Vinitsky</td>
+    <td class="tg-0lax">UC Berkeley</td>
+    <td class="tg-0lax">Decentralized, Cooperative Mixed Autonomy Traffic Optimization at Scale</td>
+    <td><a href="https://youtu.be/HYNG-DinC7s">[Video]</a> <a href="https://stanford.box.com/s/iipdyrmfy7aofctbuvhafyksfb87pwlk">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Abdul Rahman Kreidieh</td>
+    <td class="tg-alz1">UC Berkeley</td>
+    <td class="tg-alz1">Hierarchical Reinforcement Learning for Mixed Autonomy Traffic</td>
+    <td><a href="https://youtu.be/zXDb_8u4B_A">[Video]</a> <a href="https://stanford.box.com/s/1tupmy595i6kno1hepyig2wpsmi4dxi7">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Akshay Shetty</td>
+    <td class="tg-alz1">Stanford University</td>
+    <td class="tg-alz1">Trajectory Planning Under Motion and Sensing Uncertainties Using Reachability Analysis</td>
+    <td><a href="https://youtu.be/jYdHw62gW9Y">[Video]</a> <a href="https://stanford.box.com/s/3i5p7ui5p533s8pqvquod74ersbntnpi">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Shreyas Kousik</td>
+    <td class="tg-0lax">Stanford University</td>
+    <td class="tg-7zrl">Multi-Robot Trajectory Planning Using Reachability Analysis</td>
+    <td> <a href="https://youtu.be/i1VyQX4kDoQ">[Video]</a> <a href="https://stanford.box.com/s/sbxwertr8e2w21svk3pvwc2hapxs5d5d">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Alex Devonport</td>
+    <td class="tg-0lax">UC Berkeley</td>
+    <td class="tg-7zrl">Data-Driven Reachability Analysis with Christoffel Functions</td>
+    <td><a href="https://youtu.be/6DRMy2_bVWQ">[Video]</a> <a href="https://stanford.box.com/s/jr85oynaua7y8tc5k3a6ot6loxva97ti">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Kate Schweidel</td>
+    <td class="tg-alz1">UC Berkeley</td>
+    <td class="tg-xquf">Worst-Case Disturbances for Finite-Horizon Linear Time-Varying Approximations of Uncertain Systems</td>
+    <td><a href="https://youtu.be/WHqHT_oofCk">[Video]</a> <a href="https://stanford.box.com/s/rl5gxzcprxdx0bck52wsl3l81rujejac">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Stanley Smith</td>
+    <td class="tg-0lax">UC Berkeley</td>
+    <td class="tg-0lax">Improving Urban Traffic Throughput With Vehicle Platooning: Theory and Experiments</td>
+    <td><a href="https://youtu.be/sJ7jA0-rbFU">[Video]</a> <a href="https://stanford.box.com/s/u9tyzlhe2t9f03glht1g1m2ckdul60kf">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Laura Hallock</td>
+    <td class="tg-alz1">UC Berkeley</td>
+    <td class="tg-alz1">Novel Muscle Force Inference Methods for Human Dexterity Modeling & Augmentation</td>
+    <td><a href="https://youtu.be/Q4gxLPA651o">[Video]</a> <a href="https://stanford.box.com/s/ullp9h19wrt2kkjbjp5anvk66bdz41m1">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">Megan Boivin</td>
+    <td class="tg-0lax">UC Santa Cruz</td>
+    <td class="tg-0lax">Feedback Control Enabled Sense of Touch For a Curvature Controlled Soft Robotic Finger</td>
+    <td><a href="https://youtu.be/U-HhKctHdj8">[Video]</a> <a href="https://stanford.box.com/s/1qf2jnxj2ltq731t62of5xakba86wupb">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Michael Lim</td>
+    <td class="tg-alz1">UC Berkeley</td>
+    <td class="tg-xquf">POMDPs for Planning in Continuous Spaces</td>
+    <td><a href="https://youtu.be/aF-Q7-I1aW4">[Video]</a> <a href="https://stanford.box.com/s/g30onpneb0jpil8gxv2bwar2stqlifmh">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Kaylene Stocking</td>
+    <td class="tg-0lax">UC Berkeley</td>
+    <td class="tg-7zrl">Constraint inference in Dynamic Systems</td>
+    <td><a href="https://youtu.be/dMHKKzknX0o">[Video]</a> <a href="https://stanford.box.com/s/kx9hj7g5onl4k83t2s099jhihgi1rqs9">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-5ddu">Shadi Haddad</td>
+    <td class="tg-alz1">UC Santa Cruz</td>
+    <td class="tg-alz1">The Convex Geometry of Integrator Reach Sets</td>
+    <td><a href="https://youtu.be/25hXxGKlmJ0">[Video]</a> <a href="https://stanford.box.com/s/af89jl179syktx28ji2beeu3f16i88ip">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Michael Abbott</td>
+    <td class="tg-0lax">UC Berkeley</td>
+    <td class="tg-0lax">Augmenting Grasping with Kinesthetic Feedback for Upper-Limb Prostheses</td>
+    <td><a href="https://youtu.be/2YKDOFWPxaA">[Video]</a> <a href="https://stanford.box.com/s/h6fe66y6751zrluh3bhr7ex68ui97m2n">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Tae Myung Huh</td>
+    <td class="tg-alz1">UC Berkeley</td>
+    <td class="tg-alz1">Dynamically Reconfigurable Tactile Sensor for Dexterous Robotic Manipulation</td>
+    <td><a href="https://youtu.be/1SfLMfOuupU">[Video]</a> <a href="https://stanford.box.com/s/dzjxhm5bgwy759f5jugeizgivr02f4ox">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">Victoria Tuck</td>
+    <td class="tg-0lax">UC Berkeley</td>
+    <td class="tg-0lax">Decentralized Multi-agent Path Planning for Time-varying Disjoint Networks</td>
+    <td><a href="https://youtu.be/LPIG_TlRblA">[Video]</a> <a href="https://stanford.box.com/s/sxq79km1ehpk0tlt5z93l6bhenlf0n7b">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-5ddu">Alex Spaeth</td>
+    <td class="tg-alz1">UC Santa Cruz</td>
+    <td class="tg-alz1">Feedback gait entrainment in a spiking neural systems</td>
+    <td><a href="https://youtu.be/HVA98CnNFhU">[Video]</a> <a href="https://stanford.box.com/s/ig23dr9wx32daq5v5i9qikrdcb9r5ett">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm">Masoumeh Ghanbarpour</td>
+    <td class="tg-0lax">UC Santa Cruz</td>
+    <td class="tg-7zrl">A Duality Approach to Safety in Nonlinear Systems</td>
+    <td><a href="https://youtu.be/Ip8gHAi015U">[Video]</a> <a href="https://stanford.box.com/s/8b3kjw12xw7p2qt4e2m3o4rvtpt3bl25">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Adnane Saoud</td>
+    <td class="tg-alz1">UC Santa Cruz</td>
+    <td class="tg-xquf">A Hybrid Gradient Descent Method for Online Learning</td>
+    <td><a href="https://www.youtube.com/watch?v=DeGyHRmBS70">[Video]</a> <a href="https://stanford.box.com/s/ktpdjtnax30n87dzo8xvwansn3ieawbi">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Fernando Castañeda</td>
+    <td class="tg-alz1">UC Berkeley</td>
+    <td class="tg-xquf">Gaussian Process-based Min-norm Stabilizing Controller for Control-Affine Systems with Uncertain Input Effects</td>
+    <td><a href="https://youtu.be/oVCrdXnridY">[Video]</a> <a href="https://stanford.box.com/s/tlrghtg6d0ikug5jwtlixxztx00cj8tf">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-a3jo">Jun Zeng</td>
+    <td class="tg-alz1">UC Berkeley</td>
+    <td class="tg-xquf">Safety-Critical Model Predictive Control with Discrete-Time Control Barrier Function</td>
+    <td><a href="https://youtu.be/IfNgogcLSjE">[Video]</a> <a href="https://stanford.box.com/s/axp7yqh2b4o5j3sopde3batydp22vm5v">[Slides]</a></td>
+  </tr>
+  <tr>
+    <td class="tg-5ddu">Ruzena Bajcsy</td>
+    <td class="tg-alz1">UC Berkeley</td>
+    <td class="tg-alz1">Anticipatory Behavior, Modeling Intention</td>
+    <td class="tg-alz1"><a href="https://youtu.be/_B4QRbxK9hg">[Video]</a> <a href="https://stanford.box.com/s/8dykcvkn7gfikfjq3cm3dvlcg8pzhla3">[Slides]</a></td>
+  </tr>
+</tbody>
+</table>
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section-gatherfaq" class="section-wrapper section-gatherfaq gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                    <h1>Gather FAQ</h1>
+                    </div>
+
+                    <p class="lead">
+                      Please see the <a href="https://docs.google.com/document/d/1kngaWIQSHlSOfNq6S2s9SLy_o6GvLMmkxcpv4AvuMrc/edit"><b>this document</b></a> and the <a href="https://gather.town/faq"><b>official FAQ</b></a>.
+                    </p>
+                    
+                    <p class="lead">
+                    	<b>Additional Questions</b>
+                    </p>
+
+                    <p>
+                      <b>Q:</b> Will there by talks during the event?
+                    </p>
+                    <p>
+                      <b>A:</b> Nope! All the talks are posted on YouTube (see the links above), whereas the gather.town event is a chance to network, hang out, and discuss control engineering.
+                    </p><br>
+
+                    <p>
+                      <b>Q:</b> What are the student moderators' roles?
+                    </p>
+                    <p>
+                      <b>A:</b> They are here to help guide conversation in the themed areas, and answer technical questions (or direct you to Shreyas, the webmaster).
+                    </p><br>
+
+                    <p>
+                      <b>Q:</b> How do I find a particular speaker?
+                    </p>
+                    <p>
+                      <b>A:</b> You can use gather.town's person-locator functionality by clicking their name in the participants panel on the left.
+                      However, if a speaker is not currently in the event, you can find their contact info in their talk.
+                    </p><br>
+
+                    <p>
+                      <b>Q:</b> Do I have to create a gather.town account?
+                    </p>
+                    <p>
+                      <b>A:</b> Nope! If you registered for the event, you should have received a link and a password to access the event.
+                    </p><br>
+
+                    <p>
+                      <b>Q:</b> Does the "hand raise" feature only work in private spaces?
+                    </p>
+                    <p>
+                      <b>A:</b> Nope! This is a global effect -- you can see everyone who has their hands raised in the participants list.
+                    </p><br>
+
+                    <p>
+                      <b>Q:</b> How do I find an organizer during the event?
+                    </p>
+                    <p>
+                      <b>A:</b> We will all have a role in parentheses after our name, and you can use the person locator function.
+                      For example, Shreyas will be labeled as "Shreyas (webmaster)" in gather.town.
+                    </p><br>
+
+                    <p>
+                      <b>Q:</b> Gather gives me motion sickness / headache! What can I do?
+                    </p>
+                    <p>
+                      <b>A:</b> Sorry to hear that!
+                      We recommend you stay in one place and use the chat feature to interact with people.
+                      Others can come to you, or you can set up a separate Zoom call to chat with specific folks if you need to get off of Gather.
+                    </p><br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="section-contact" class="section-wrapper section-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Contact</h1>
+                        <br>
+                        <!--<a target="_blank" href="http://citris-uc.org/person/lorie-mariano/"><b>Lorie Mariano</b></a> (lorie@citris-uc.org) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                        <!--<a target="_blank" href="https://www.soe.ucsc.edu/people/adomingu"><b>Angel Dominguez</b></a> (adomingu@ucsc.edu)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                        <b>Grace Gao</b> (gracegao@stanford.edu)
+                        <br>
+                        <b>Monroe Kennedy</b> (monroek@stanford.edu)
+                        <br>
+                        Webmaster:  Shreyas Kousik (skousik@stanford.edu)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+            <!-- .row-->
+
+    <!-- contact-section -->
+
+
+    <footer class="footer">
+        <div class="copyright-section">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="copytext text-center">&copy; All rights reserved
+                    <br>
+                    Background image from <a target="_blank" href="https://sallie.stanford.edu/">SALLIE</a></div>
+                </div>
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .copyright-section -->
+    </footer>
+    <!-- .footer -->
+
+</div>
+<!-- #main-wrapper -->
+
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!--<script src="js/one-page-nav.js"></script>-->
+<script src="js/scripts.js"></script>
+
+<script>
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

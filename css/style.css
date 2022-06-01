@@ -346,7 +346,7 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/stanford-university.jpg");
+    background            : url("../img/santa_cruz_coast.jpg");
     /*background            : #888888 !important;*/
     background-size       : cover;
     padding               : 0;
@@ -362,7 +362,7 @@ button:focus,
     }
 
 .jumbotron .content {
-    color             : #333333;
+    color             : #FFFFFF;
     position          : absolute;
     top               : 50%;
     left              : 0;
@@ -377,7 +377,7 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #8c1515;
+    color       : #ffffff;
     font-weight : bold;
     }
 
